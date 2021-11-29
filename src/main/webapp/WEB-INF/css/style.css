@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.top-bar {
+	background: #404040;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15px;
+	margin-bottom: 50px;
+}
+
+.top-bar > h1 {
+	color: white;
+	font-size: 22px;
+}
+
+.top-bar > p {
+	color: white;
+	font-size: 18px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.message {
+	color: red;
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.edit-update-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+#form-wrapper {
+	margin: 0 15px 40px 15px;
+}
+
+#form-wrapper > form > .input-field {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#form-wrapper > form > .input-field > label {
+	width: 120px;
+}
+
+#form-wrapper > form > button {
+	background-color: #404040;
+	color: white;
+	padding: 7px 15px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+#all-books-section {
+	background-color: #f6f6f6;
+	margin: 0 15px;
+}
+
+#all-books-section > .grid-wrapper {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	text-align: center;
+	padding: 15px 0;
+	border: 1px solid black;
+}
+
+.grid-header {
+	background-color: #404040;
+	color: white;
+}
